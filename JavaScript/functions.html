@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+    <script> 
+        function main()
+        {
+            console.log("main starts");
+            m1();
+            console.log("main ends");
+        }
+        main();
+
+        function m1()
+        {
+            console.log("m1 starts");
+            console.log("m1 end");
+        }
+
+        
+        
+        let FE=function()
+        {
+            console.log("FE starts");
+            console.log("FE ends");
+        }
+        FE();
+
+        let AF=()=>
+        {
+            console.log("AF starts");
+            console.log("AF ends");
+        }
+        let ar=AF;
+        console.log(ar)
+    </script>
+</head>
+<body>
+    <h1>Functions</h1>
+</body>
+</html>

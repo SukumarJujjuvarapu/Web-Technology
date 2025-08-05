@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Numbers</title>
+    <script>
+        function main()
+        {
+            let n=5;
+            count=0;
+            for(let i=1;i<=n;i++)
+            {
+                if(n%i==0)
+                {
+                    console.log(i);
+                    count++;
+                }
+            }
+            console.log("count = "+count);
+            if(count==2) console.log(`${n} is prime number`)
+            else console.log(`${n} is not prime number`)
+        }
+        main();
+    </script>
+</head>
+<body>
+    <h1>Printing prime numbers in Javascript</h1>
+</body>
+</html>

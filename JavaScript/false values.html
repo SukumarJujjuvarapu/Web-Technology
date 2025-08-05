@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FALSE VALUES</title>
+    <script>
+        function main()
+        {
+            let n=0;
+            console.log(n,typeof n);
+            n=Boolean(n);
+            console.log(n,typeof n);
+
+            n=null;
+            console.log(n,typeof n);
+            n=Boolean(n);
+            console.log(n,typeof n);
+
+            n=undefined;
+            console.log(n,typeof n);
+            n=Boolean(n);
+            console.log(n,typeof n);
+
+            n="";
+            console.log(n,typeof n);
+            n=Boolean(n);
+            console.log(n,typeof n);
+
+            n=NaN;
+            console.log(n,typeof n);
+            n=Boolean(n);
+            console.log(n,typeof n);
+        }
+        main();
+    </script>
+</head>
+<body>
+    <h1>False values in javascript</h1>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+    <script>
+        function sum(a,b)
+        {
+            return a+b;
+        }
+         function mul(a,b)
+        {
+            return a*b;
+        }
+         function sub(a,b)
+        {            return a-b;
+        }
+        function calc(n1,n2,type)
+        {
+            return type(n1,n2)
+        }
+        console.log(calc(12,2,sum));
+        console.log(calc(12,2,sub));
+        console.log(calc(12,2,mul));
+
+        function main()
+        {
+            console.log("main starts");
+            m1(10,10);
+        }
+        main();
+        function m1()
+        {
+            console.log(n1,n2);
+        }
+
+    </script>
+</head>
+<body>
+    <h1>Functions with Parameters </h1>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function main()
+        {
+            // marks out of 20
+            let s1=prompt("enter subject 1 marks");
+            let s2=prompt("enter subject 2 marks");
+            let s3=prompt("enter subject 3 marks");
+            let s4=prompt("enter subject 4 marks");
+            let s5=prompt("enter subject 5 marks");
+            let total=s1+s2+s3+s4+s5
+            if(total>=90)
+            {
+                console.log(total,"A+ Grade")
+            }
+            else if(total>=80)
+            {
+                console.log(total,"A Grade")
+            }
+            else if(total>=70)
+            {
+                console.log(total,"B Grade")
+            }
+            else if(total>=60)
+            {
+                console.log(total,"C Grade")
+            }
+            else
+            {
+                console.log(total,"Fail")
+            }
+        }
+        main();
+    </script>
+</head>
+<body>
+    <h1>else-if ladder condition</h1>
+</body>
+</html>

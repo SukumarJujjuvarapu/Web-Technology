@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+    <style>
+        legend{
+            background-color: rgb(31, 30, 28);
+            padding: 5px;
+            color: aqua;
+            padding: 0px 10px 0px 10px;
+
+        }
+    </style>
+    <form action="">
+    <fieldset>
+        <legend>Student Info</legend>
+        <table width="100%" style="background-color: aqua;">
+            <tr>
+                <td><label for="">Student Name</label></td>
+                <td><input type="text" placeholder="Enter Student Name"></td>
+                <td><label for=""> Father Name</label></td>
+                <td><input type="text" placeholder="Enter Father Name"></td>
+                <td><label for="">Mother Name</label></td>
+                <td><input type="text" placeholder="Enter Mother Name"></td>
+            </tr>
+            <tr>
+                <td><label for="">Date of Birth</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label for="">Contact</label></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><label for="">Gender</label></td>
+                <td><input type="radio" name="radio">Male
+                <input type="radio" name="radio">Female
+                <input type="radio" name="radio">Others
+            </td>
+            </tr>
+            <tr>
+                <td><label for="">E-mail</label></td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td><label for="">Addres</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><Label>Languages</Label></td>
+                <td><input type="checkbox" name="" id="">Telugu <br>
+                    <input type="checkbox" name="" id="">Hindi<br>
+                    <input type="checkbox" name="" id="">English<br>
+                    <input type="checkbox" name="" id="">Tamil<br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">State</label></td>
+                <td>
+                    <select name="" id="">
+                       <option value="disabled select">Select</option>
+                       <option value="">Andhra Pradesh</option>
+                       <option value="">Karnataka</option>
+                       <option value="">Madhya Pradesh</option>
+                       <option value="">Tamil Nadu</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan ="6" align="center"><button>Submit</button></td>
+            </tr>
+        </table>
+    </fieldset>
+    </form>
+</body>
+</html>
